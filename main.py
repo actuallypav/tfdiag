@@ -2,7 +2,7 @@ from parser import parse_tf
 from graph import render_diagram
 
 def main():
-    tf_path = ""
+    tf_path = "./testing"
     resources = parse_tf(tf_path)
     render_diagram(resources)
 
